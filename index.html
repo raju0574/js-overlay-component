@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" viewport="width=device-width, initial-scale=1">
+	<title>HTML5 Overlay Component</title>
+	<link rel="stylesheet" type="text/css" href="overlay.css">
+</head>
+<body>
+	<section>
+	<h2>I am auto close Overlay</h2>
+	<hr>
+	<div class="component-overlay overlay" data-type="auto">
+		<p>Hi !! Please click the below button to get auto close overlay.</p>
+		<button class="role-trigger button" data-id="#OverlayContent"> Auto Close Overlay </button>
+		<div id="OverlayContent" class="role-parent parent">
+			<div tabindex="0"></div>
+			<div class="role-content content">				
+				<ul>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<a href="">This is overlay content link 1</a>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<a href="">This is overlay content link 2</a>
+				</ul>
+ 			</div>
+		</div>
+	</div>
+	<h2>I am manual close Overlay</h2>
+
+	<div class="component-overlay overlay" data-type="manual">
+		<p>Hi !! Please click the below button to get manula close overlay.</p>
+		<button class="role-trigger button" data-id="#OverlayContent"> Manual Close Overlay </button>
+		<div id="OverlayContent" class="role-parent parent">
+			<div tabindex="0"></div>
+			<div class="role-content content">
+				<ul>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<a href="">This is overlay content link 1</a>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<li>This is overlay content 1</li>
+					<a href="">This is overlay content link 2</a>
+				</ul>
+ 			</div>
+		</div>
+	</div>
+	<hr>
+	</section>
+
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
